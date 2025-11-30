@@ -1,0 +1,10 @@
+cd smart-task-analyzer/backend % python manage.py runserver
+Starting development server at http://127.0.0.1:8000/
+✔ API is live
+👉 http://127.0.0.1:8000/api/tasks/analyze/
+👉 http://127.0.0.1:8000/api/tasks/suggest/
+Admin panel:
+👉 http://127.0.0.1:8000/admin/
+
+cd smart-task-analyzer/frontend
+python3 -m http.server 3000
